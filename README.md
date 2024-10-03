@@ -1,21 +1,18 @@
-# bulbea
+
 > *"Deep Learning based Python Library for Stock Market Prediction and Modelling."*
 
-[![Gitter](https://img.shields.io/gitter/room/bulbea/bulbea.svg)](https://gitter.im/bulbea/bulbea) [![Documentation Status](https://readthedocs.org/projects/bulbea/badge/?version=latest)](http://bulbea.readthedocs.io/en/latest/?badge=latest)
-
-![](.github/bulbea.png)
 
 ### Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Documentation](#documentation)
 * [Dependencies](#dependencies)
-* [License](#license)
+
 
 ### Installation
 Clone the git repository:
 ```console
-$ git clone https://github.com/achillesrasquinha/bulbea.git && cd bulbea
+$ git clone https://github.com/shruti/Stock_market_predictor.git
 ```
 
 Install necessary dependencies
@@ -87,23 +84,10 @@ Split your data set into training and testing sets.
 ```
 ![](.github/plot.png)
 
-#### 2. Sentiment Analysis
-Add your Twitter credentials to your environment variables.
-```bash
-export BULBEA_TWITTER_API_KEY="<YOUR_TWITTER_API_KEY>"
-export BULBEA_TWITTER_API_SECRET="<YOUR_TWITTER_API_SECRET>"
-
-export BULBEA_TWITTER_ACCESS_TOKEN="<YOUR_TWITTER_ACCESS_TOKEN>"
-export BULBEA_TWITTER_ACCESS_TOKEN_SECRET="<YOUR_TWITTER_ACCESS_TOKEN_SECRET>"
-```
 And then,
 ```python
->>> bb.sentiment(share)
-0.07580128205128206
-```
 
-### Documentation
-Detailed documentation is available [here](http://bulbea.readthedocs.io/en/latest/).
+0.07580128205128206
 
 ### Dependencies
 1. quandl
@@ -111,5 +95,3 @@ Detailed documentation is available [here](http://bulbea.readthedocs.io/en/lates
 3. tweepy
 4. textblob
 
-### License
-This code has been released under the [Apache 2.0 License](LICENSE).
